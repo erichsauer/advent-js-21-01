@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>01 - Pomodoro || Advent of JavaScript</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
+import logo from './logo.svg';
+import './App.css';
 
-  <body>
+function App() {
+  return (
     <div class="wrapper">
       <div class="ring">
         <svg width="518" height="518" viewBox="0 0 518 518">
@@ -32,6 +26,7 @@
         </button>
       </div>
     </div>
-  </body>
-  <script src="./App.js"></script>
-</html>
+  );
+}
+
+export default App;
